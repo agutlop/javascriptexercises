@@ -1,0 +1,2 @@
+# javascriptexercises
+Javascript exercises project
