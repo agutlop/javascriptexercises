@@ -9,13 +9,15 @@
 
 class IfElseExercises {
 
-  constructor() {
-  }
-
   hello() {
-    return "hello";
+    return 'hello';
   }
 
 }
 
+function hello() {
+  return 'hello2';
+}
+
 export default IfElseExercises;
+export { hello };

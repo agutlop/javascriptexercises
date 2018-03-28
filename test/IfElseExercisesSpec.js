@@ -8,16 +8,21 @@
  */
 
 import { expect } from 'chai';
-import IfElseExercises from '../src/IfElseExercises';
+import IfElseExercises, { hello } from '../src/IfElseExercises';
 
 describe('IfElseExercises1', () => {
 
   describe('IfElseExercises.hello()', () => {
 
     it('should return welcome message for a named user', () => {
-      const ifelseexercises= new IfElseExercises();
+      const ifelseexercises = new IfElseExercises();
       const message = ifelseexercises.hello();
-      expect(message).to.be.equal('hel2lo');
+      expect(message).to.be.equal('hello');
+    });
+
+    it('should return welcome message for a named user2', () => {
+      const message = hello();
+      expect(message).to.be.equal('hello2');
     });
 
   });
