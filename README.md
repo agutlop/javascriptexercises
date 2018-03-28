@@ -41,9 +41,9 @@ $ npm start
 MIT © 2016 agutlop
 
 
-#Notes
+###Notes
 
-### Install npm, node and yeoman
+#### Install npm, node and yeoman
 
 Install npm and node:
 ```
