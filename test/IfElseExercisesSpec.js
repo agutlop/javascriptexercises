@@ -10,7 +10,7 @@
 import { expect } from 'chai';
 import IfElseExercises, { hello } from '../src/IfElseExercises';
 
-describe('IfElseExercises1', () => {
+xdescribe('IfElseExercises1', () => {
 
   describe('IfElseExercises.hello()', () => {
 
